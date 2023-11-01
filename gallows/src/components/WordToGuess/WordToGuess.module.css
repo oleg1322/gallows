@@ -1,0 +1,11 @@
+.word {
+    display: flex;
+    gap: 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.underline {
+    border-bottom: 6px solid #fff;
+    width: 50px;
+}

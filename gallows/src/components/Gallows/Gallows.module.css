@@ -1,0 +1,95 @@
+.main {
+    position: relative;
+}
+
+.rope {
+    height: 50px;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.top__bar {
+    height: 10px;
+    width: 200px;
+    margin: 0 0 0 120px;
+    background: #fff; 
+}
+
+.middle__bar {
+    height: 400px;
+    width: 10px;
+    margin: 0 0 0 120px;
+    background: #fff;
+}
+
+.bottom__bar {
+    height: 10px;
+    width: 250px;
+    background: #fff;    
+}
+
+.head {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    border: 10px solid #fff;
+    position: absolute;
+    top: 50px;
+    right: -30px;
+}
+
+.body {
+    width: 10px;
+    height: 110px;
+    background: #fff;
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+.left__arm {
+    width: 10px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    top: 110px;
+    right: 50px;
+    rotate: 30deg;
+    transform-origin: right bottom;
+}
+
+.right__arm {
+    width: 10px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    top: 110px;
+    right: -50px;
+    rotate: -30deg;
+    transform-origin: left bottom;
+}
+
+.left__leg{
+    width: 10px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    top: 210px;
+    right: 50px;
+    rotate: 30deg;
+    transform-origin: right bottom;
+}
+
+.right__leg {
+    width: 10px;
+    height: 100px;
+    background: #fff;
+    position: absolute;
+    top: 210px;
+    right: -50px;
+    rotate: -30deg;
+    transform-origin: left bottom;
+}

@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    gap: 0.5rem;
+}
+
+button:hover:not(:disabled), button:active:not(:disabled) {
+    background-color: cadetblue;
+}
+
+button.active, button.active:hover {
+    background-color: green;
+    color: #fff;
+}
+
+button:disabled {
+    color: #fff;
+}
